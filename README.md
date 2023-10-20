@@ -1,5 +1,7 @@
 # week_number
 
+This package is forked from [https://github.com/KadaDev/week_of_year v2.2.0](https://github.com/KadaDev/week_of_year/tree/v2.2.0).
+
 Fast dependency-free extension methods to get week number from a dart DateTime object.
 Supported systems are:
 
