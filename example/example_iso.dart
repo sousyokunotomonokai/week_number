@@ -1,14 +1,3 @@
-# week_of_year
-
-Fast dependency-free extension methods to get week number from a dart DateTime object.
-Supported systems are:
-
-* ISO 8601
-* Western Traditional
-
-Also includes a function to create a DateTime from a year and week number.
-
-```dart
 import 'package:week_number/iso.dart';
 
 void main() {
@@ -20,4 +9,3 @@ void main() {
   final DateTime dateFromWeekNumber = dateTimeFromWeekNumber(2023, 1, DateTime.monday);
   print(dateFromWeekNumber); // 2023-01-02
 }
-```

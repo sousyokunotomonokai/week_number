@@ -1,9 +1,8 @@
-name: week_of_year
-description: Adds extension method to get the ISO 8601 week of year from a date
-version: 2.2.0
-homepage: https://github.com/KadaDev/week_of_year
-repository: https://github.com/KadaDev/week_of_year
-issue_tracker: https://github.com/KadaDev/week_of_year/issues
+name: week_number
+description: Adds extension method to get the week number from a date
+version: 1.0.0
+repository: https://github.com/sousyokunotomonokai/week_number
+issue_tracker: https://github.com/sousyokunotomonokai/week_number/issues
 
 environment:
   sdk: ">=2.12.0 <4.0.0"

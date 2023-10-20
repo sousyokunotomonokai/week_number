@@ -1,5 +1,6 @@
 import 'package:test/test.dart';
-import 'package:week_of_year/datetime_from_week_number.dart';
+
+import 'package:week_number/iso.dart';
 
 void t(int year, List<DateTime> expectations) {
   group('$year', () {
