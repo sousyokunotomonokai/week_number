@@ -1,4 +1,4 @@
-# week_of_year
+# week_number
 
 Fast dependency-free extension methods to get week number from a dart DateTime object.
 Supported systems are:

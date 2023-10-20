@@ -20,7 +20,7 @@ void t(int year, List<int> expectations) {
 }
 
 void main() {
-  group('week_of_year', () {
+  group('week_number', () {
     t(1990, [1, 9, 1]);
     t(1991, [1, 9, 1]);
     t(1992, [1, 9, 53]);
