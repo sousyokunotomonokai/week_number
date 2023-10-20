@@ -17,7 +17,8 @@ DateTime dateTimeFromWeekNumber(
   }
 
   // removing the weekdayFromSunday from January 1st returns the Sunday of week 1, which could be in the preceding year.
-  final firstDayOfWeek1 = DateTime(year, 1, 1 - (firstDayOfYear.weekdayFromSunday - 1));
+  final firstDayOfWeek1 =
+      DateTime(year, 1, 1 - (firstDayOfYear.weekdayFromSunday - 1));
 
   // Not using DateTime.add() since that adds a duration which takes things such as daylight savings into account, which could introduce errors.
   return DateTime(
