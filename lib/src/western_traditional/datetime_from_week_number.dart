@@ -7,7 +7,7 @@ import 'date_week_extensions.dart';
 DateTime dateTimeFromWeekNumber(
   int year,
   int weekNumber, [
-  int weekDay = DateTime.monday,
+  int weekDay = DateTime.sunday,
 ]) {
   final firstDayOfYear = DateTime(year, 1, 1);
 

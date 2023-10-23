@@ -1,7 +1,7 @@
 import '../date_extensions.dart';
 
 extension DateWeekExtensions on DateTime {
-  /// The week number based on western traditional system.
+  /// The week number based on western traditional system, [0 .. 54].
   /// The week contains January 1st corresponds to week number 1.
   int get weekNumber {
     return (ordinalDate - weekdayFromSunday + 13) ~/ 7;

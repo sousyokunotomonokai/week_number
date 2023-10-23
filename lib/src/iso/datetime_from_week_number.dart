@@ -1,4 +1,4 @@
-/// Create a DateTime based on ISO year, week number, and optional week day.
+/// Create a DateTime based on year, ISO 8601 week number, and optional week day.
 ///
 /// Allows overflowing/underflowing the week numbers. For example: year 2023,
 /// week 53 doesn't exist and will overflow to year 2024, week 1
