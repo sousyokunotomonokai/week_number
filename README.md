@@ -8,7 +8,7 @@ Supported systems are:
 * ISO 8601
 * Western Traditional
 
-Also includes a function to create a DateTime from a year and week number.
+Also includes a function to create a DateTime from a year and week number or an ordinal date.
 
 Cited from [https://en.wikipedia.org/wiki/Week](https://en.wikipedia.org/wiki/Week)
 | System              | First day of week | First week of year contains |              |                  |
@@ -29,6 +29,8 @@ void main() {
 
   final DateTime dateFromWeekNumber = dateTimeFromWeekNumber(2023, 2);
   print(dateFromWeekNumber); // 2023-01-09
+  print(dateTimeFromOrdinalDate(2023, 365)); // 2023-12-31
+  print(dateTimeFromOrdinalDate(2024, 366)); // 2024-12-31
 }
 ```
 
@@ -39,12 +41,14 @@ import 'package:week_number/western_traditional.dart';
 
 void main() {
   final date = DateTime.now();
-  print(date.weekNumber); // Get the iso week number
+  print(date.weekNumber); // Get the western traditional week number
   print(date.ordinalDate); // Get the ordinal date
   print(date.isLeapYear); // Is this a leap year?
   print(date.weekdayFromSunday); // sunday = 1, monday = 2, ...
 
   final DateTime dateFromWeekNumber = dateTimeFromWeekNumber(2023, 2);
   print(dateFromWeekNumber); // 2023-01-08
+  print(dateTimeFromOrdinalDate(2023, 365)); // 2023-12-31
+  print(dateTimeFromOrdinalDate(2024, 366)); // 2024-12-31
 }
 ```

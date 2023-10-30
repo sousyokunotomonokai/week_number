@@ -9,3 +9,7 @@ Add support for western traditional system
 
 * Update documentation
 * Fix default weekday of dateTimeFromWeekNumber(...) for western traditional system
+
+## [1.1.0](https://github.com/sousyokunotomonokai/week_number/tree/v1.1.0) (2023-10-30)
+
+* Add dateTimeFromOrdinalDate(year, ordinalDate)

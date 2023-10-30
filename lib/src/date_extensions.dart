@@ -1,3 +1,5 @@
+import 'functions.dart' as func;
+
 extension DateExtensions on DateTime {
   /// The ordinal date, the number of days since December 31st the previous year.
   ///
@@ -10,7 +12,5 @@ extension DateExtensions on DateTime {
   }
 
   /// True if this date is on a leap year.
-  bool get isLeapYear {
-    return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
-  }
+  bool get isLeapYear => func.isLeapYear(year);
 }
