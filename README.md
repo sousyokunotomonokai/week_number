@@ -11,6 +11,7 @@ Supported systems are:
 Also includes a function to create a DateTime from a year and week number or an ordinal date.
 
 Cited from [https://en.wikipedia.org/wiki/Week](https://en.wikipedia.org/wiki/Week)
+
 | System              | First day of week | First week of year contains |              |                  |
 | :------------------ | :---------------- | :-------------------------- | :----------- | :--------------- |
 | ISO 8601            | Monday            | 4 January                   | 1st Thursday | 4-7 days of year |
@@ -52,3 +53,7 @@ void main() {
   print(dateTimeFromOrdinalDate(2024, 366)); // 2024-12-31
 }
 ```
+
+## Our products using this package
+
+* [DidRoku : A Life logging app](https://play.google.com/store/apps/details?id=com.sousyokunotomonokai.didlog)

@@ -16,7 +16,8 @@ void main() {
   testWeekNumber(2023, 2, 1, 5);
   testWeekNumber(2023, 2, 5, 6);
   testWeekNumber(2023, 12, 1, 48);
-  testWeekNumber(2023, 12, 31, 53);
+  testWeekNumber(2023, 12, 30, 52);
+  testWeekNumber(2023, 12, 31, 1);
 
   // 2024
   testWeekNumber(2024, 1, 1, 1);
@@ -26,5 +27,15 @@ void main() {
   testWeekNumber(2024, 2, 4, 6);
   testWeekNumber(2024, 3, 1, 9);
   testWeekNumber(2024, 12, 1, 49);
-  testWeekNumber(2024, 12, 31, 53);
+  testWeekNumber(2024, 12, 28, 52);
+  testWeekNumber(2024, 12, 29, 1);
+  testWeekNumber(2024, 12, 31, 1);
+
+  // 2025
+  testWeekNumber(2025, 1, 1, 1);
+  testWeekNumber(2025, 1, 4, 1);
+  testWeekNumber(2025, 1, 5, 2);
+  testWeekNumber(2025, 12, 27, 52);
+  testWeekNumber(2025, 12, 28, 1);
+  testWeekNumber(2025, 12, 31, 1);
 }
