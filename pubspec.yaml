@@ -1,6 +1,6 @@
 name: week_number
 description: Adds extension method to get the week number from a date
-version: 1.1.0
+version: 1.1.1
 repository: https://github.com/sousyokunotomonokai/week_number
 issue_tracker: https://github.com/sousyokunotomonokai/week_number/issues
 

@@ -13,3 +13,7 @@ Add support for western traditional system
 ## [1.1.0](https://github.com/sousyokunotomonokai/week_number/tree/v1.1.0) (2023-10-30)
 
 * Add dateTimeFromOrdinalDate(year, ordinalDate)
+
+## [1.1.1](https://github.com/sousyokunotomonokai/week_number/tree/v1.1.1) (2024-12-17)
+
+* Fixed a bug where the week number of a week containing 1st Jan of next year should be 1. [#1]
